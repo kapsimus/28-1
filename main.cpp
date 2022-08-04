@@ -7,7 +7,7 @@ std::string names[6];
 std::mutex times_access;
 std::mutex names_access;
 
-void swimmer(float speed, int number) {
+void swimmer(const float speed, const int number) {
     float distance = 0;
     float time = 0;
     while (distance < 100.0) {
